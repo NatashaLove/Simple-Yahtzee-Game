@@ -1,5 +1,5 @@
-import java.util.*;
 package Dice;
+import java.util.*;
 
 public class Dice {
 	
@@ -10,7 +10,7 @@ public class Dice {
 	
 	public int roll (){
 		Random random = new Random();
-		int aNumber = random.nextInt(6)-1;
+		int aNumber = random.nextInt(6)+1;
 		return aNumber;
 	}
 
